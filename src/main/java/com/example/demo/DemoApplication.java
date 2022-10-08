@@ -15,7 +15,7 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 public class DemoApplication {
 	@RequestMapping("/")
 	String home() {
-		return "Hello World!";
+		return "Hello Universe!";
 	}
 
 	public static void main(String[] args) {
